@@ -1,0 +1,26 @@
+/* Style for the container div */
+.CharacterCounter {
+    width: 100%;
+    max-width: 400px; /* You can adjust the max-width as needed */
+    margin: 0 auto; /* Center the component horizontally */
+    padding: 20px;
+  }
+  
+  /* Style for the textarea */
+  .CharacterCounter textarea {
+    width: 100%;
+    height: 150px; /* You can adjust the height as needed */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  /* Style for the paragraph displaying character count */
+  .CharacterCounter p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
